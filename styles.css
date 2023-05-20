@@ -1,0 +1,148 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*Aquiiiiiiiiiiiiiiiii*/
+body{
+    background:black;
+    overflow-x:hidden;
+}
+.header__wrapper{
+    background:white;
+    margin-left:1rem;
+}
+.headerprincipal{
+    text-align:center;
+    font-family:'Roboto', sans-serif;
+    font-size:35px;
+    padding:1rem;
+    font-weight:bold;
+}
+.generalbody{     
+    height:2500px;
+    width:100%;
+    margin-left:1rem;
+    background:gainsboro;
+    display:flex;
+    flex-direction:column;
+}
+.headerfoto{
+    background:white;
+    display:flex;
+    justify-content:space-between;     
+    font-family:'Roboto', sans-serif;
+    width:26rem;
+    margin-left:46rem;
+    margin-top:15rem;
+}
+.titulofoto{
+    font-size:18px;
+    padding:0.5rem;
+    font-weight:bold;
+    font-family:'Roboto', sans-serif;
+}
+.numerofoto{
+    padding:0.5rem;
+    color:grey;
+}
+.img__wrapper{
+    margin-top:-8rem;
+    background:pink;
+    width:26rem;
+    height:17.5rem;
+    transform:translate(46rem, 8rem);
+    overflow:hidden;
+}
+.foto{
+    object-position: -271px -129px;  
+    width:985px;
+    height:400px;
+    object-fit:cover;
+}
+.footerfoto{
+    background:white;
+    font-family:'Roboto', sans-serif;
+    font-size:12px;
+    width:26rem;
+    transform:translate(46rem, 8rem);
+    padding-top:0.2rem;
+}
+.black{
+    font-weight:bold;
+    font-family:'Roboto', sans-serif;
+    font-size:12px;
+}
+.frasefooter{
+    padding:0.9rem 1rem 1rem 1rem;
+    border-top:solid 1px rgb(182, 182, 182);
+}
+.imgbig__wrapper{
+    margin-top:-8rem;
+    background:pink;
+    width:26rem;
+    height:26.7rem;
+    transform:translate(46rem, 8rem);
+    overflow:hidden;
+}
+.fotolarga{
+    object-position: -271px -129px;  
+    width:985px;
+    height:427px;
+    object-fit:cover;
+}
+.fotogato{
+    object-position: -69px -10px;  
+    width:485px;
+    height:300px;
+    object-fit:cover;
+}
+.fotocomida{
+    object-position: -271px -109px;  
+    width:985px;
+    height:427px;
+    object-fit:cover;
+}
